@@ -1,0 +1,8 @@
+.venv/
+.uv-cache/
+.jupyter/
+.ipynb_checkpoints/
+__pycache__/
+.pytest_cache/
+*.pyc
+tmp/

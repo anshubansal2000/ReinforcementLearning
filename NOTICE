@@ -1,0 +1,10 @@
+Reinforcement Learning, Explained Through Experiments
+
+The Mars Rover task specification is adapted from Vizuara AI Labs,
+RL in Production, Lecture 01:
+https://rl-bootcamp-decks.vercel.app/pdfs/lecture-01-assignment.pdf
+
+The repository provides an implementation, reproducible experiments, and original
+explanatory prose about established reinforcement-learning algorithms. The exercise
+PDF and lecture slides are not redistributed. References to third-party materials
+do not change the rights associated with those materials.
