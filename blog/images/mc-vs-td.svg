@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1008pt" height="540pt" viewBox="0 0 1008 540" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-14T11:50:10.536190</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 540 
+L 1008 540 
+L 1008 0 
+L 0 0 
+z
+" style="fill: #f5f3ee"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 57.28464 287.7876 
+L 950.71536 287.7876 
+Q 973.64736 287.7876 973.64736 278.7426 
+L 973.64736 147.0474 
+Q 973.64736 138.0024 950.71536 138.0024 
+L 57.28464 138.0024 
+Q 34.35264 138.0024 34.35264 147.0474 
+L 34.35264 278.7426 
+Q 34.35264 287.7876 57.28464 287.7876 
+z
+" clip-path="url(#p56c1ba2be1)" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 227.148447 216.513 
+Q 271.93001 216.513 313.916488 216.513 
+" clip-path="url(#p56c1ba2be1)" style="fill: none; stroke: #c56732; stroke-width: 2.5; stroke-linecap: round"/>
+    <path d="M 305.916488 212.513 
+L 313.916488 216.513 
+L 305.916488 220.513 
+z
+" clip-path="url(#p56c1ba2be1)" style="fill: #c56732; stroke: #c56732; stroke-width: 2.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 442.709247 216.513 
+Q 487.49081 216.513 529.477288 216.513 
+" clip-path="url(#p56c1ba2be1)" style="fill: none; stroke: #c56732; stroke-width: 2.5; stroke-linecap: round"/>
+    <path d="M 521.477288 212.513 
+L 529.477288 216.513 
+L 521.477288 220.513 
+z
+" clip-path="url(#p56c1ba2be1)" style="fill: #c56732; stroke: #c56732; stroke-width: 2.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 658.270047 216.513 
+Q 703.05161 216.513 745.038088 216.513 
+" clip-path="url(#p56c1ba2be1)" style="fill: none; stroke: #c56732; stroke-width: 2.5; stroke-linecap: round"/>
+    <path d="M 737.038088 212.513 
+L 745.038088 216.513 
+L 737.038088 220.513 
+z
+" clip-path="url(#p56c1ba2be1)" style="fill: #c56732; stroke: #c56732; stroke-width: 2.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 57.28464 457.8336 
+L 950.71536 457.8336 
+Q 973.64736 457.8336 973.64736 448.7886 
+L 973.64736 317.0934 
+Q 973.64736 308.0484 950.71536 308.0484 
+L 57.28464 308.0484 
+Q 34.35264 308.0484 34.35264 317.0934 
+L 34.35264 448.7886 
+Q 34.35264 457.8336 57.28464 457.8336 
+z
+" clip-path="url(#p56c1ba2be1)" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 227.148447 386.559 
+Q 271.93001 386.559 313.916488 386.559 
+" clip-path="url(#p56c1ba2be1)" style="fill: none; stroke: #126c91; stroke-width: 2.5; stroke-linecap: round"/>
+    <path d="M 305.916488 382.559 
+L 313.916488 386.559 
+L 305.916488 390.559 
+z
+" clip-path="url(#p56c1ba2be1)" style="fill: #126c91; stroke: #126c91; stroke-width: 2.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 442.709247 386.559 
+Q 487.49081 386.559 529.477288 386.559 
+" clip-path="url(#p56c1ba2be1)" style="fill: none; stroke: #126c91; stroke-width: 2.5; stroke-linecap: round"/>
+    <path d="M 521.477288 382.559 
+L 529.477288 386.559 
+L 521.477288 390.559 
+z
+" clip-path="url(#p56c1ba2be1)" style="fill: #126c91; stroke: #126c91; stroke-width: 2.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 658.270047 386.559 
+Q 703.05161 386.559 745.038088 386.559 
+" clip-path="url(#p56c1ba2be1)" style="fill: none; stroke: #126c91; stroke-width: 2.5; stroke-linecap: round"/>
+    <path d="M 737.038088 382.559 
+L 745.038088 386.559 
+L 737.038088 390.559 
+z
+" clip-path="url(#p56c1ba2be1)" style="fill: #126c91; stroke: #126c91; stroke-width: 2.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #c56732" x="68.292" y="173.097" transform="rotate(-0 68.292 173.097)">MONTE CARLO</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #586873" x="68.292" y="259.929" transform="rotate(-0 68.292 259.929)">Complete the episode → compute returns → update visited states</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172b38" x="164.6064" y="220.100188" transform="rotate(-0 164.6064 220.100188)">State A</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172b38" x="380.1672" y="220.100188" transform="rotate(-0 380.1672 220.100188)">State B</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172b38" x="595.728" y="220.100188" transform="rotate(-0 595.728 220.100188)">State C</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172b38" x="811.2888" y="220.100188" transform="rotate(-0 811.2888 220.100188)">Terminal</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #c56732" x="811.2888" y="174.906" transform="rotate(-0 811.2888 174.906)">Learn after finish</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #126c91" x="68.292" y="343.143" transform="rotate(-0 68.292 343.143)">TD(0)</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #586873" x="68.292" y="429.975" transform="rotate(-0 68.292 429.975)">Take one step → combine reward + next-state estimate → update</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172b38" x="164.6064" y="390.146187" transform="rotate(-0 164.6064 390.146187)">State A</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172b38" x="380.1672" y="390.146187" transform="rotate(-0 380.1672 390.146187)">State B</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172b38" x="595.728" y="390.146187" transform="rotate(-0 595.728 390.146187)">State C</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172b38" x="811.2888" y="390.146187" transform="rotate(-0 811.2888 390.146187)">Terminal</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #126c91" x="271.92816" y="348.57" transform="rotate(-0 271.92816 348.57)">update</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #126c91" x="487.48896" y="348.57" transform="rotate(-0 487.48896 348.57)">update</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #126c91" x="703.04976" y="348.57" transform="rotate(-0 703.04976 348.57)">update</text>
+   </g>
+  </g>
+  <g id="text_17">
+   <text style="font-weight: 700; font-size: 25px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172b38" x="45.36" y="51.396094" transform="rotate(-0 45.36 51.396094)">Same experience. Different moments of learning.</text>
+  </g>
+  <g id="text_18">
+   <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #586873" x="45.36" y="79.318125" transform="rotate(-0 45.36 79.318125)">MC waits for the outcome. TD updates after each transition.</text>
+  </g>
+  <g id="text_19">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #586873" x="50.4" y="510.3" transform="rotate(-0 50.4 510.3)">TD bootstraps from an estimate that may be wrong. MC uses full sampled returns that may be noisy.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p56c1ba2be1">
+   <rect x="45.36" y="113.4" width="917.28" height="361.8"/>
+  </clipPath>
+ </defs>
+</svg>

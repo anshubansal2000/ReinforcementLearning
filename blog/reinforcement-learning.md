@@ -27,6 +27,10 @@ The companion notebook contains the environment implementations, all three algor
 
 Reinforcement learning studies how an agent can use interaction and reward to make sequential decisions. A move matters because of both its immediate consequences and the opportunities it creates afterward.
 
+![The rover world: a 5 by 5 grid, two craters, a goal, and stochastic movement](images/rover-world.png)
+
+*The environment defines the possible outcomes and rewards. The agent chooses which action to request.*
+
 Our rover lives in a 5×5 grid:
 
 ```text
@@ -46,6 +50,8 @@ An ordinary move costs −1. Entering a crater gives −10 and ends the episode.
 This gives us the ingredients of a Markov decision process: states, actions, transition probabilities, rewards, and a discount factor. Here, the current cell contains the information needed to determine the distribution of the next outcome. We use a discount factor of 0.95, which gives later rewards progressively less weight.
 
 We implemented the world using [Gymnasium](https://gymnasium.farama.org/), which provides a standard interface for reinforcement-learning environments. `reset()` begins an episode; `step(action)` returns the next observation, reward, and episode-ending information.
+
+![Agent-environment loop: actions go to the environment; observations and rewards return to the agent](images/rl-loop.png)
 
 The first random episode exposed a detail worth noticing:
 
@@ -124,6 +130,10 @@ We also verified the result in two ways: the remaining Bellman update error was 
 
 We changed the slip probability to zero and solved the world again. The start value rose from **−1.416 to +0.950**.
 
+![DP value heatmaps comparing dusty terrain with reliable movement on a shared scale](images/terrain-values.png)
+
+*Reliable movement raises values throughout the nonterminal grid. Gray cells mark terminal states.*
+
 The result is independently interpretable. A shortest safe route takes eight moves: seven ordinary rewards of −1 followed by the goal reward of +10, with discounting applied along the way.
 
 Near a crater, the effect is particularly intuitive. State 11, immediately left of the central crater, increased from **1.25 to 4.44**. Reliable movement makes it possible to travel beside a hazard without accidentally entering it.
@@ -150,6 +160,10 @@ The setup was deliberately controlled:
 | Checkpoints | 1,000, 5,000, and 20,000 episodes |
 
 We confirmed identical visit counts for the paired runs. This reduces differences caused by receiving different trajectories, while still leaving the important limitation of a single seed.
+
+![MC updates after a complete episode; TD updates after each transition](images/mc-vs-td.png)
+
+*Same fixed policy and paired experience, different learning targets and update timing.*
 
 **Monte Carlo: finish the journey, then learn from it**
 
@@ -204,6 +218,10 @@ A constant learning rate keeps new experience influential. More episodes therefo
 The defensible conclusion is specific: **TD had lower late-stage start-value variability in this paired run; MC reached our early error threshold sooner.** A broader comparison would require multiple seeds and learning-rate settings.
 
 **The result that a single learning curve would hide**
+
+![Visit-count heatmap highlighting state 13, visited only 16 times, with MC and TD estimates far below DP](images/coverage-blind-spot.png)
+
+*Counts include repeated visits within an episode. An accurate start estimate can coexist with poor coverage elsewhere.*
 
 State 13 provides a useful counterpoint:
 
@@ -276,5 +294,3 @@ Before celebrating a learning curve, ask what it measures, what experience produ
 [notebook]: https://github.com/anshubansal2000/ReinforcementLearning/blob/main/mars_rover_assignment.ipynb
 [convergence]: https://github.com/anshubansal2000/ReinforcementLearning/blob/main/results/convergence.png
 [results]: https://github.com/anshubansal2000/ReinforcementLearning/blob/main/results/metrics.json
-
-

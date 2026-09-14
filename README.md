@@ -104,6 +104,8 @@ implemented in these experiments.
 - [`build_notebook.py`](build_notebook.py): regenerate the notebook after changing Python source.
 - [`run_notebook.py`](run_notebook.py): execute and export using a fresh kernel.
 - [`verify_results.py`](verify_results.py): confirm the article's baseline numerical claims.
+- [`blog/images/`](blog/images/): article diagrams and heatmaps in PNG and SVG formats.
+- [`create_blog_graphics.py`](create_blog_graphics.py): regenerate the graphics from saved results.
 
 For implementation changes, edit `rl_experiments.py`, run `build_notebook.py`, then rerun tests
 and the notebook. Building removes saved notebook outputs; executing restores them. The GitHub
