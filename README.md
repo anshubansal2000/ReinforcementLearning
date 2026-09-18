@@ -2,6 +2,8 @@
 
 **A Mars rover. A windy drone. Three ways to estimate the value of a decision.**
 
+**[Read the live article →](https://reinforcementlearning.vercel.app/)**
+
 We built two small Gymnasium environments and compared dynamic programming, Monte Carlo,
 and TD(0). The experiments expose how learning targets, uncertainty, and data coverage affect
 what an agent learns. No GPU is required.
@@ -110,6 +112,12 @@ implemented in these experiments.
 For implementation changes, edit `rl_experiments.py`, run `build_notebook.py`, then rerun tests
 and the notebook. Building removes saved notebook outputs; executing restores them. The GitHub
 Actions workflow runs tests, the full notebook, and the published-result checks on pushes and PRs.
+
+## Website publishing
+
+The Vercel project serves the static `website/` directory. After editing the article or its
+graphics, run `python build_site.py` and commit the regenerated website along with the source.
+`vercel.json` explicitly selects a static site rather than a Python web application.
 
 ## Attribution and license
 

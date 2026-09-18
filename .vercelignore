@@ -1,0 +1,8 @@
+.git
+.venv
+.uv-cache
+.jupyter
+.pytest_cache
+__pycache__
+tmp
+.env*

@@ -16,3 +16,4 @@ jobs:
       - run: python -m pytest -q
       - run: python run_notebook.py
       - run: python verify_results.py
+      - run: python build_site.py
